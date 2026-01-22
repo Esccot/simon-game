@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>simon game</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="status">
+      CURRENT STATUS
+      <span id="Level">Level</span>
+    </div>
+    <div class="text"></div>
+    <div>
+      <div id="paimon-overlay" class="paimon-hidden">
+        <img src="./audio/paimon-image.jpeg" alt="Paimon" />
+        <p>Game Over! Paimon is disappointed!</p>
+
+        <div class="paimons-button">
+          <button class="button" id="closeButton">Close</button>
+          <button id="playAgainButton" class="button">Play Again</button>
+        </div>
+      </div>
+    </div>
+    <div class="red-yellow">
+      <div class="btn red box" id="red">
+        <div class="circle">W</div>
+      </div>
+      <div class="btn yellow box" id="yellow">
+        <div class="circle">A</div>
+      </div>
+    </div>
+
+    <div class="orange-green">
+      <div class="btn orange box" id="orange">
+        <div class="circle">S</div>
+      </div>
+      <div class="btn green box" id="green">
+        <div class="circle">D</div>
+      </div>
+    </div>
+    <div class="button-container">
+      <button class="start-button" id="startButton">Start Game</button>
+    </div>
+    <script src="./index.js"></script>
+  </body>
+</html>
